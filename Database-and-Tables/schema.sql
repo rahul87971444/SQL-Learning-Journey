@@ -16,3 +16,10 @@ CREATE TABLE department (
     deptID INT PRIMARY KEY AUTO_INCREMENT,
     deptNAME VARCHAR(50) NOT NULL
 );
+
+
+
+-- Concepts Covered:
+-- 1. CREATE DATABASE
+-- 2. CREATE TABLE
+-- 3. Constraints: PRIMARY KEY, UNIQUE, NOT NULL, CHECK
