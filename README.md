@@ -1,6 +1,6 @@
 ## 📅 Progress
 
-### ✅ Day 01 - Database & Table Creation
+### ✅ Day-01-Database-and-Tables
 - Created a database (`rkydb`)
 - Learned how to use `USE` statement
 - Created tables: `users`, `department`
