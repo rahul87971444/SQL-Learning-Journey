@@ -60,9 +60,32 @@ SELECT * FROM students
 ORDER BY age DESC
 LIMIT 2;
 
+-- Extra Concepts (Advanced Filtering)
+
+-- LIKE
+SELECT * FROM students WHERE name LIKE 'R%';
+
+-- BETWEEN
+SELECT * FROM students WHERE age BETWEEN 20 AND 22;
+
+-- IN
+SELECT * FROM students WHERE course IN ('BCA', 'BTECH');
+
+-- NULL check
+SELECT * FROM students WHERE email IS NOT NULL;
+
+-- DISTINCT
+SELECT DISTINCT course FROM students;
+
+-- Alias
+SELECT name AS student_name FROM students;
+
 
 -- Concepts Covered:
 -- SELECT, WHERE, Comparison Operators
 -- Logical Operators (AND, OR, NOT)
 -- ORDER BY (ASC, DESC)
 -- LIMIT
+-- Real-world use:
+-- These queries are commonly used in filtering dashboards,
+-- search systems, and backend APIs.
