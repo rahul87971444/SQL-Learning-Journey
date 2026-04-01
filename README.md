@@ -29,5 +29,12 @@
 - Combined conditions using AND, OR, NOT
 - Sorted data using ORDER BY
 - Limited results using LIMIT
+ ### 🔥 Extra Concepts Added
+- LIKE (pattern matching)
+- BETWEEN (range filtering)
+- IN (multiple values)
+- IS NULL / IS NOT NULL
+- DISTINCT
+- Alias (AS)
 
 📂 Folder: `Day-03-Where-Sorting-Limit`
