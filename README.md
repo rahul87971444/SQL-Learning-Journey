@@ -38,3 +38,11 @@
 - Alias (AS)
 
 📂 Folder: `Day-03-Where-Sorting-Limit`
+
+### ✅ Day 04 - Keys, Relationships & Joins
+- Created tables with Primary Key & Foreign Key
+- Understood relationships between tables
+- Combined data using JOIN
+- Practiced INNER JOIN, LEFT JOIN, RIGHT JOIN
+
+📂 Folder: `Day-04-Joins-and-Relationships`
