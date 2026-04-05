@@ -46,3 +46,12 @@
 - Practiced INNER JOIN, LEFT JOIN, RIGHT JOIN
 
 📂 Folder: `Day-04-Joins-and-Relationships`
+
+### ✅ Day 05 - Functions & GROUP BY
+- Learned string functions (UPPER, LOWER, LENGTH, CONCAT)
+- Used number functions (ROUND, CEIL, FLOOR, POWER)
+- Applied aggregate functions (COUNT, AVG, SUM, MIN, MAX)
+- Grouped data using GROUP BY
+- Filtered grouped data using HAVING
+
+📂 Folder: `Day-05-Functions-and-GroupBy`
