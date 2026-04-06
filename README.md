@@ -55,3 +55,11 @@
 - Filtered grouped data using HAVING
 
 📂 Folder: `Day-05-Functions-and-GroupBy`
+
+### ✅ Day 06 - UNION, Joins & Subqueries
+- Learned UNION and UNION ALL
+- Understood Self Join and Cross Join
+- Practiced subqueries
+- Used IN and EXISTS
+
+📂 Folder: `Day-06-Advanced-Queries`
