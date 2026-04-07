@@ -71,6 +71,7 @@ A company wants to analyze employee data.
 You are given two tables:
 - employees
 - departments
+
 👉 Tasks:
 1. Find all employees with their department names  
 2. Find employees earning more than average salary  
