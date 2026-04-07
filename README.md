@@ -63,3 +63,17 @@
 - Used IN and EXISTS
 
 📂 Folder: `Day-06-Advanced-Queries`
+
+### ✅ Day 07 - SQL Case Study
+
+#### 📌 Problem:
+A company wants to analyze employee data.
+You are given two tables:
+- employees
+- departments
+👉 Tasks:
+1. Find all employees with their department names  
+2. Find employees earning more than average salary  
+3. Count employees in each department  
+4. Show departments having more than 1 employee  
+5. Display top 2 highest paid employees  
