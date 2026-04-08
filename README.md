@@ -78,3 +78,10 @@ You are given two tables:
 3. Count employees in each department  
 4. Show departments having more than 1 employee  
 5. Display top 2 highest paid employees  
+
+### ✅ Day 08 - Views, Indexes & CASE
+- Learned Views (virtual tables)
+- Used Indexes for performance optimization
+- Applied CASE statement for conditional logic
+
+📂 Folder: `Day-08-Views-Indexes-Case`
