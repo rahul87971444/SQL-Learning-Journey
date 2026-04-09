@@ -85,3 +85,19 @@ You are given two tables:
 - Applied CASE statement for conditional logic
 
 📂 Folder: `Day-08-Views-Indexes-Case`
+
+### ✅ Day 09 - Advanced SQL Problem
+#### 📌 Problem:
+An e-commerce company wants to analyze its orders.
+
+You are given two tables:
+- customers
+- orders
+
+👉 Tasks:
+1. Find total orders placed by each customer  
+2. Find customers who placed more than 2 orders  
+3. Find the customer who spent the most money  
+4. Display all customers with their total spending (including those with no orders)  
+5. Categorize customers as 'High', 'Medium', 'Low' spenders using CASE  
+
