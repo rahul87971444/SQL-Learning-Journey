@@ -101,3 +101,9 @@ You are given two tables:
 4. Display all customers with their total spending (including those with no orders)  
 5. Categorize customers as 'High', 'Medium', 'Low' spenders using CASE  
 
+### ✅ Day 10 - Functions, Procedures & Triggers
+- Created user-defined functions
+- Implemented stored procedures
+- Understood triggers and automation
+
+📂 Folder: `Day-10-Procedures-Triggers-Functions`
