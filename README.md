@@ -107,3 +107,51 @@ You are given two tables:
 - Understood triggers and automation
 
 📂 Folder: `Day-10-Procedures-Triggers-Functions`
+
+# ✅ Day 11 - SQL Mini Project (Student Management System)
+
+Built a mini project to manage students, courses, and enrollments using SQL.
+
+📌 Project Overview
+
+This system manages:
+
+Students 👨‍🎓
+Courses 📚
+Enrollments 🔗
+
+It allows storing, retrieving, and analyzing student-course data efficiently using SQL.
+
+## 📌 What I Did
+
+* Created database and tables
+* Inserted sample data
+* Applied relationships (Foreign Key)
+* Performed JOIN queries
+* Used GROUP BY & HAVING
+* Implemented Stored Procedure
+* Created Trigger for automation
+
+---
+
+## 🧠 Concepts Used
+✅ DDL (CREATE DATABASE, CREATE TABLE)
+✅ DML (INSERT, UPDATE, DELETE)
+✅ Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK)
+✅ JOIN (INNER JOIN)
+✅ GROUP BY & HAVING
+✅ Aggregate Functions (COUNT, SUM, AVG)
+✅ LIKE (Search functionality)
+✅ Stored Procedures
+✅ Triggers
+
+---
+
+## 📂 Folder
+
+`Student-Management-System-SQL`
+
+---
+
+🚀 This project combines all SQL concepts learned so far into one practical system.
+
