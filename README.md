@@ -108,7 +108,7 @@ You are given two tables:
 
 📂 Folder: `Day-10-Procedures-Triggers-Functions`
 
-# ✅ Day 11 - SQL Mini Project (Student Management System)
+# SQL Mini Project (Student Management System)
 
 Built a mini project to manage students, courses, and enrollments using SQL.
 
@@ -154,4 +154,8 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 ---
 
 🚀 This project combines all SQL concepts learned so far into one practical system.
+
+
+🔥 LeetCode SQL Practice
+### Customers Who Never Order
 
