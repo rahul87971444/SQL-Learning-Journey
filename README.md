@@ -156,6 +156,7 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 🚀 This project combines all SQL concepts learned so far into one practical system.
 
 
-##🔥 LeetCode SQL Practice
-### 1.Customers Who Never Order
+## 🔥 LeetCode SQL Practice
+
+**1. Customers Who Never Order**
 
