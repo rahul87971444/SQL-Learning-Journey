@@ -158,5 +158,11 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 
 ## 🔥 LeetCode SQL Practice
 
+📂 Folder: `SQL-Questions/`
+
 **1. Customers Who Never Order**
+📄 `Q1-Customers-Who-Never-Order.sql`
+
+
+
 
