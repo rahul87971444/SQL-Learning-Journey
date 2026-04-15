@@ -18,18 +18,6 @@ Find all customers who never placed any order.
 
 ---
 
-## 💻 SQL Solution
-
-```sql
-SELECT c.name
-FROM Customers c
-LEFT JOIN Orders o
-ON c.id = o.customerId
-WHERE o.customerId IS NULL;
-```
-
----
-
 ## 📚 Concepts Used
 
 * LEFT JOIN
@@ -41,3 +29,13 @@ WHERE o.customerId IS NULL;
 ## 🚀 Key Learning
 
 LEFT JOIN + NULL check is used to find missing relationships between tables.
+
+###  Problem 2  Second Highest Salary
+
+📄 Q2-Second-Highest-Salary.sql
+
+🧠 Concepts Covered
+JOIN (LEFT JOIN)
+Subqueries
+Aggregate Functions (MAX)
+Filtering
