@@ -162,6 +162,8 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 
 **1. Customers Who Never Order**
 📄 `Q1-Customers-Who-Never-Order.sql`
+**2. Second Highest Salary**
+📄 `Q2-Second-Highest-Salary.sql`
 
 
 
