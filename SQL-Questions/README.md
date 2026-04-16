@@ -8,15 +8,12 @@
 
 Find all customers who never placed any order.
 
----
 
 ## 🧠 Approach
 
 * Used LEFT JOIN to include all customers
 * Checked for NULL in Orders table
 * NULL means no matching order
-
----
 
 ## 📚 Concepts Used
 
@@ -40,6 +37,11 @@ Subqueries
 Aggregate Functions (MAX)
 Filtering
 
-###  Problem 2  Duplicate Emails
+###  Problem 3  Duplicate Emails
 
 📄 Q3-Duplicate-Emails.sql
+
+
+###  Problem 4 Employees Earning More Than Their Managers
+
+📄 Q4-Employees-Earning-More-Than-Their-Managers.sql
