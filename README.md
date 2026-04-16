@@ -169,6 +169,9 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 **3. Duplicate Emails**
 📄 `Q3-Duplicate-Emails.sql`
 
+**4. Employees Earning More Than Their Managers**
+📄 `Q4-Employees-Earning-More-Than-Their-Managers.sql`
+
 
 
 
