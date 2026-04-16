@@ -166,6 +166,9 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 **2. Second Highest Salary**
 📄 `Q2-Second-Highest-Salary.sql`
 
+**3. Duplicate Emails**
+📄 `Q3-Duplicate-Emails.sql`
+
 
 
 
