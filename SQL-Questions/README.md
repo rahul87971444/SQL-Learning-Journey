@@ -39,3 +39,7 @@ JOIN (LEFT JOIN)
 Subqueries
 Aggregate Functions (MAX)
 Filtering
+
+###  Problem 2  Duplicate Emails
+
+📄 Q3-Duplicate-Emails.sql
