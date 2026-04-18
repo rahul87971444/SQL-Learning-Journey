@@ -172,6 +172,8 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 **4. Employees Earning More Than Their Managers**
 📄 `Q4-Employees-Earning-More-Than-Their-Managers.sql`
 
+**5. Employees with Salary Greater Than Department Average**
+📄 `Q5-Employees-Salary-Greater-Than-Avg.sql`
 
 
 
