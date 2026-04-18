@@ -45,3 +45,6 @@ Filtering
 ###  Problem 4 Employees Earning More Than Their Managers
 
 📄 Q4-Employees-Earning-More-Than-Their-Managers.sql
+
+### Problem 5 Employees with Salary Greater Than Department Average
+📄 Q5-Employees-Salary-Greater-Than-Avg.sql
