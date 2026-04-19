@@ -2,8 +2,6 @@
 
 ### 📌 Problem 1 : Customers Who Never Order
 
----
-
 ## 💡 Problem Statement
 
 Find all customers who never placed any order.
@@ -20,8 +18,6 @@ Find all customers who never placed any order.
 * LEFT JOIN
 * NULL handling
 * Filtering
-
----
 
 ## 🚀 Key Learning
 
@@ -51,3 +47,6 @@ Filtering
 
 ### Problem 6 Department Highest Salary
 📄 Q6-Department-Highest-Salary.sql
+
+## Problem 7 Nth Highest Salary
+📄 Q7-Nth-Highest-Salary.sql
