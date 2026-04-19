@@ -178,4 +178,5 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 **6. Department Highest Salary**
 📄 `Q6-Department-Highest-Salary.sql`
 
-
+**7. Nth Highest Salary**
+📄 `Q7-Nth-Highest-Salary.sql`
