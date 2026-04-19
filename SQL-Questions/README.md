@@ -48,3 +48,6 @@ Filtering
 
 ### Problem 5 Employees with Salary Greater Than Department Average
 📄 Q5-Employees-Salary-Greater-Than-Avg.sql
+
+### Problem 6 Department Highest Salary
+📄 Q6-Department-Highest-Salary.sql
