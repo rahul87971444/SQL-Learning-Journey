@@ -175,5 +175,7 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 **5. Employees with Salary Greater Than Department Average**
 📄 `Q5-Employees-Salary-Greater-Than-Avg.sql`
 
+**6. Department Highest Salary**
+📄 `Q6-Department-Highest-Salary.sql`
 
 
