@@ -48,5 +48,5 @@ Filtering
 ### Problem 6 Department Highest Salary
 📄 Q6-Department-Highest-Salary.sql
 
-## Problem 7 Nth Highest Salary
+#### Problem 7 Nth Highest Salary
 📄 Q7-Nth-Highest-Salary.sql
