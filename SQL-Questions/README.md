@@ -50,3 +50,6 @@ Filtering
 
 #### Problem 7 Nth Highest Salary
 📄 Q7-Nth-Highest-Salary.sql
+
+### Problem 8 Rank Scores
+📄 Q8-Rank-Scores.sql
