@@ -180,3 +180,6 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 
 **7. Nth Highest Salary**
 📄 `Q7-Nth-Highest-Salary.sql`
+
+**8. Rank Scores**
+📄 `Q8-Rank-Scores.sql`
