@@ -183,3 +183,6 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 
 **8. Rank Scores**
 📄 `Q8-Rank-Scores.sql`
+
+**9. Employees Earning More Than Their Manager**
+📄 `Q9-Employees-Higher-Than-Manager.sql`
