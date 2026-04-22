@@ -186,3 +186,6 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 
 **9. Employees Earning More Than Their Manager**
 📄 `Q9-Employees-Higher-Than-Manager.sql`
+
+**10. Showing Employee And Manager Name**
+📄Q10.`Showing_employee_and_manager_name.sql`
