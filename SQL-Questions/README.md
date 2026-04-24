@@ -63,3 +63,7 @@ Q10-Showing_employee_and_manager_name.sql
 
 ### Problem 11 Students Who Logged In
 📄 Q11-Students-Who-Logged-In.sql
+
+
+12. Students Who Never Logged In
+📄 Q12-Students-Who-Never-Logged-In.sql
