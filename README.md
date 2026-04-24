@@ -192,3 +192,6 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 
 **11. Students Who Logged In**
 📄 `Q11-Students-Who-Logged-In.sql`
+
+**12. Students Who Never Logged In**
+📄 Q12-Students-Who-Never-Logged-In.sql
