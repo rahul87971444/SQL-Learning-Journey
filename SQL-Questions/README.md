@@ -67,3 +67,6 @@ Q10-Showing_employee_and_manager_name.sql
 
 12. Students Who Never Logged In
 📄 Q12-Students-Who-Never-Logged-In.sql
+
+13. Students Who Logged In More Than Once
+📄 Q13-Students-Logged-In-More-Than-Once.sql
