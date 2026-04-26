@@ -198,3 +198,6 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 
 **13. Students Who Logged In More Than Once**
 📄 `Q13-Students-Logged-In-More-Than-Once.sql`
+
+**14. Student with Maximum Logins**
+📄 `Q14-Student-Maximum-Logins.sql`
