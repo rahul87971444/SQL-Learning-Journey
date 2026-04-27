@@ -73,3 +73,6 @@ Q10-Showing_employee_and_manager_name.sql
 
 14. Student with Maximum Logins
 📄 Q14-Student-Maximum-Logins.sql
+
+15. Students with Exactly One Login
+📄 Q15-Students-Exactly-One-Login.sql
