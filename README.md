@@ -201,3 +201,6 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 
 **14. Student with Maximum Logins**
 📄 `Q14-Student-Maximum-Logins.sql`
+
+**15. Students with Exactly One Login**
+📄 `Q15-Students-Exactly-One-Login.sql`
