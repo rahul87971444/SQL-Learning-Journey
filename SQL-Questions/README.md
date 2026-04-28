@@ -76,3 +76,7 @@ Q10-Showing_employee_and_manager_name.sql
 
 15. Students with Exactly One Login
 📄 Q15-Students-Exactly-One-Login.sql
+
+16. Students with No Duplicate Logins
+📄 `Q16-Students-No-Duplicate-Logins.sql`
+
