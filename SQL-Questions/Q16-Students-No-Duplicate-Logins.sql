@@ -1,6 +1,8 @@
-SELECT s.name, COUNT(l.loginid) AS logincount
+SELECT s.name
 FROM student s
-JOIN login l
+JOIN (
+    SELECT DISTINCT studentid, loginid
+    FROM login) l
 ON s.studentid = l.studentid
 GROUP BY s.studentid, s.name
 HAVING COUNT(l.loginid) = 1;
