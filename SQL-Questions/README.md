@@ -83,4 +83,7 @@ Q10-Showing_employee_and_manager_name.sql
 **17. Students Who Logged In on Consecutive Days**
 📄 `Q17-Students-Consecutive-Logins.sql`
 
+**18. Students Who Logged In on Consecutive Days**
+📄 `Q18-Students-Consecutive-Logins.sql`
+
 
