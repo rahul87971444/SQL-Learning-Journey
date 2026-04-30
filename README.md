@@ -211,3 +211,6 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 **17. Students Who Logged In on Consecutive Days**
 📄 `Q17-Students-Consecutive-Logins.sql`
 
+**18. Students Who Logged In on Consecutive Days**
+📄 `Q18-Students-Consecutive-Logins.sql`
+
