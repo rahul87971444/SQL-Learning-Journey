@@ -214,3 +214,7 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 **18. Students Who Logged In on Consecutive Days**
 📄 `Q18-Students-Consecutive-Logins.sql`
 
+**19. Customers with Total Spending Greater Than Average**
+📄 `Q19-Customers-Spending-Greater-Than-Average.sql`
+
+
