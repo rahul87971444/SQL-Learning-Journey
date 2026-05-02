@@ -89,4 +89,7 @@ Q10-Showing_employee_and_manager_name.sql
 **19. Customers with Total Spending Greater Than Average**
 📄 `Q19-Customers-Spending-Greater-Than-Average.sql`
 
+**20. Employees with Highest Salary**
+📄 `Q20-Employees-Highest-Salary.sql`
+
 
