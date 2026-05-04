@@ -92,4 +92,8 @@ Q10-Showing_employee_and_manager_name.sql
 **20. Employees with Highest Salary**
 📄 `Q20-Employees-Highest-Salary.sql`
 
+**21. Employees Earning Above Average Salary**
+📄 `Q21-Employees-Above-Average-Salary.sql`
+
+
 
