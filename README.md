@@ -220,5 +220,9 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 **20. Employees with Highest Salary**
 📄 `Q20-Employees-Highest-Salary.sql`
 
+**21. Employees Earning Above Average Salary**
+📄 `Q21-Employees-Above-Average-Salary.sql`
+
+
 
 
