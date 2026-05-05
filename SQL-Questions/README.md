@@ -95,5 +95,8 @@ Q10-Showing_employee_and_manager_name.sql
 **21. Employees Earning Above Average Salary**
 📄 `Q21-Employees-Above-Average-Salary.sql`
 
+**22. Remove Duplicate Emails (Keep One Record)**
+📄 Q22-Remove-Duplicate-Emails.sql
+
 
 
