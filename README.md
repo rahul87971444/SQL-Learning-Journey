@@ -226,6 +226,9 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 **22. Remove Duplicate Emails (Keep One Record)**
 📄 Q22-Remove-Duplicate-Emails.sql
 
+**23. Department Wise Employee Count**
+📄 `Q23-Department-Wise-Employee-Count.sql`
+
 
 
 
