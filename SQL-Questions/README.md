@@ -98,5 +98,9 @@ Q10-Showing_employee_and_manager_name.sql
 **22. Remove Duplicate Emails (Keep One Record)**
 📄 Q22-Remove-Duplicate-Emails.sql
 
+**23. Department Wise Employee Count**
+📄 `Q23-Department-Wise-Employee-Count.sql`
+
+
 
 
