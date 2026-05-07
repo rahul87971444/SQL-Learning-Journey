@@ -78,10 +78,10 @@ Q10-Showing_employee_and_manager_name.sql
 📄 Q15-Students-Exactly-One-Login.sql
 
 16. Students with No Duplicate Logins
-📄 `Q16-Students-No-Duplicate-Logins.sql`
+📄 Q16-Students-No-Duplicate-Logins.sql
 
-**17. Students Who Logged In on Consecutive Days**
-📄 `Q17-Students-Consecutive-Logins.sql`
+17. Students Who Logged In on Consecutive Days
+📄 Q17-Students-Consecutive-Logins.sql
 
 **18. Students Who Logged In on Consecutive Days**
 📄 `Q18-Students-Consecutive-Logins.sql`
@@ -100,6 +100,9 @@ Q10-Showing_employee_and_manager_name.sql
 
 **23. Department Wise Employee Count**
 📄 `Q23-Department-Wise-Employee-Count.sql`
+
+24. Employees Not Assigned to Any Department
+📄 Q24-Employees-Without-Department.sql
 
 
 
