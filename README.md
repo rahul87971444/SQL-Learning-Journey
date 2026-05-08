@@ -232,6 +232,9 @@ It allows storing, retrieving, and analyzing student-course data efficiently usi
 **24. Employees Not Assigned to Any Department**
 📄 `Q24-Employees-Without-Department.sql`
 
+**25. Find Total Salary Department Wise**
+📄 `Q25-Department-Wise-Total-Salary.sql`
+
 
 
 
