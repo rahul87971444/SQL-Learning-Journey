@@ -104,6 +104,10 @@ Q10-Showing_employee_and_manager_name.sql
 24. Employees Not Assigned to Any Department
 📄 Q24-Employees-Without-Department.sql
 
+25. Find Total Salary Department Wise
+📄 Q25-Department-Wise-Total-Salary.sql
+
+
 
 
 
