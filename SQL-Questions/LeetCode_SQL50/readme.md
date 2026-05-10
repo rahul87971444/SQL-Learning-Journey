@@ -94,3 +94,38 @@ Return the result table in any order.
 |------|------------|------|
 | Afghanistan | 25500100 | 652230 |
 | Algeria | 37100000 | 2381741 |
+
+---
+
+# 1148. Article Views I
+
+## Problem
+Write a solution to find all the authors that viewed at least one of their own articles.
+
+Return the result table sorted by `id` in ascending order.
+
+## Explanation
+- `author_id = viewer_id` → selects authors who viewed their own articles
+- `DISTINCT` removes duplicate ids
+- `ORDER BY id ASC` sorts the result in ascending order
+
+## Example
+
+### Input
+
+| article_id | author_id | viewer_id | view_date |
+|------------|-----------|-----------|------------|
+| 1 | 3 | 5 | 2019-08-01 |
+| 1 | 3 | 6 | 2019-08-02 |
+| 2 | 7 | 7 | 2019-08-01 |
+| 2 | 7 | 6 | 2019-08-02 |
+| 4 | 7 | 1 | 2019-07-22 |
+| 3 | 4 | 4 | 2019-07-21 |
+| 3 | 4 | 4 | 2019-07-21 |
+
+### Output
+
+| id |
+|----|
+| 4 |
+| 7 |
