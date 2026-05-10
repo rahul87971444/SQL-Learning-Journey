@@ -27,11 +27,13 @@ Find the ids of products that are both low fat and recyclable.
 | 1 |
 | 3 |
 
+---
+
 # 584. Find Customer Referee
 
 ## Problem
 Find the names of customers who:
-- are **not referred by any customer**, or
+- are not referred by any customer, or
 - are referred by a customer whose `id != 2`.
 
 ## Explanation
@@ -61,10 +63,12 @@ Find the names of customers who:
 | Bill |
 | Zack |
 
-#595. Big Countries
+---
 
-A country is **big** if:
+# 595. Big Countries
 
+## Problem
+A country is considered **big** if:
 - it has an area of at least `3000000` km², or
 - it has a population of at least `25000000`.
 
@@ -76,17 +80,17 @@ Return the result table in any order.
 
 ### Input
 
-| name        | continent | area    | population | gdp          |
-|--------------|-----------|---------|-------------|---------------|
-| Afghanistan | Asia      | 652230  | 25500100   | 20343000000  |
-| Albania     | Europe    | 28748   | 2831741    | 12960000000  |
-| Algeria     | Africa    | 2381741 | 37100000   | 188681000000 |
-| Andorra     | Europe    | 468     | 78115      | 3712000000   |
-| Angola      | Africa    | 1246700 | 20609294   | 100990000000 |
+| name | continent | area | population | gdp |
+|------|------------|------|------------|-----|
+| Afghanistan | Asia | 652230 | 25500100 | 20343000000 |
+| Albania | Europe | 28748 | 2831741 | 12960000000 |
+| Algeria | Africa | 2381741 | 37100000 | 188681000000 |
+| Andorra | Europe | 468 | 78115 | 3712000000 |
+| Angola | Africa | 1246700 | 20609294 | 100990000000 |
 
 ### Output
 
-| name        | population | area    |
-|--------------|-------------|---------|
-| Afghanistan | 25500100   | 652230  |
-| Algeria     | 37100000   | 2381741 |
+| name | population | area |
+|------|------------|------|
+| Afghanistan | 25500100 | 652230 |
+| Algeria | 37100000 | 2381741 |
