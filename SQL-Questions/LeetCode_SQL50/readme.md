@@ -129,3 +129,109 @@ Return the result table sorted by `id` in ascending order.
 |----|
 | 4 |
 | 7 |
+
+---
+
+# 1683. Invalid Tweets
+
+## Problem Statement
+
+Write a solution to find the IDs of the invalid tweets.
+
+A tweet is considered invalid if the number of characters in the `content` is strictly greater than `15`.
+
+Return the result table in any order.
+
+---
+
+# Example 1
+
+## Input
+
+### Tweets Table
+
+| tweet_id | content                           |
+|----------|-----------------------------------|
+| 1        | Let us Code                       |
+| 2        | More than fifteen chars are here! |
+
+---
+
+## Output
+
+| tweet_id |
+|----------|
+| 2        |
+
+---
+
+# Explanation
+
+- Tweet `1` has length = `11` → Valid Tweet
+- Tweet `2` has length = `33` → Invalid Tweet
+
+So only tweet id `2` is returned.
+
+---
+
+# Approach
+
+- Use the SQL `LENGTH()` function to calculate the number of characters in `content`.
+- Select tweets where content length is greater than `15`.
+
+---
+
+# SQL Query
+
+```sql
+SELECT tweet_id
+FROM Tweets
+WHERE LENGTH(content) > 15;
+```
+
+---
+
+# Explanation of Query
+
+## `LENGTH(content)`
+
+Returns the number of characters in the tweet content.
+
+Example:
+
+```text
+"Let us Code" → 11
+```
+
+---
+
+## `WHERE LENGTH(content) > 15`
+
+Filters only invalid tweets whose content length exceeds `15`.
+
+---
+
+# Time Complexity
+
+```text
+O(n)
+```
+
+where `n` is the number of rows in the table.
+
+---
+
+# Space Complexity
+
+```text
+O(1)
+```
+
+---
+
+# Concepts Used
+
+- SQL SELECT
+- WHERE Clause
+- LENGTH() Function
+
