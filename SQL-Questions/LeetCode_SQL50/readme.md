@@ -235,3 +235,153 @@ O(1)
 - WHERE Clause
 - LENGTH() Function
 
+---
+
+# 1378. Replace Employee ID With The Unique Identifier
+
+## Problem Statement
+
+Write a solution to show the unique ID of each user.
+
+If a user does not have a unique ID, show `null` instead.
+
+Return the result table in any order.
+
+---
+
+# Example 1
+
+## Input
+
+### Employees Table
+
+| id | name     |
+|----|----------|
+| 1  | Alice    |
+| 7  | Bob      |
+| 11 | Meir     |
+| 90 | Winston  |
+| 3  | Jonathan |
+
+---
+
+### EmployeeUNI Table
+
+| id | unique_id |
+|----|-----------|
+| 3  | 1         |
+| 11 | 2         |
+| 90 | 3         |
+
+---
+
+# Output
+
+| unique_id | name     |
+|-----------|----------|
+| null      | Alice    |
+| null      | Bob      |
+| 2         | Meir     |
+| 3         | Winston  |
+| 1         | Jonathan |
+
+---
+
+# Explanation
+
+- Alice and Bob do not have a unique ID → show `null`
+- Meir has unique ID `2`
+- Winston has unique ID `3`
+- Jonathan has unique ID `1`
+
+---
+
+# Approach
+
+- Use `LEFT JOIN` to combine both tables.
+- Match rows using `id`.
+- `LEFT JOIN` keeps all employees even if they do not have a matching unique ID.
+- Missing matches automatically appear as `NULL`.
+
+---
+
+# SQL Query
+
+```sql
+SELECT EmployeeUNI.unique_id, Employees.name
+FROM Employees
+LEFT JOIN EmployeeUNI
+ON Employees.id = EmployeeUNI.id;
+```
+
+---
+
+# Explanation of Query
+
+## `LEFT JOIN`
+
+Keeps all rows from the `Employees` table.
+
+If matching `id` exists in `EmployeeUNI`,
+the corresponding `unique_id` is returned.
+
+Otherwise:
+```text
+NULL
+```
+is shown.
+
+---
+
+# Join Visualization
+
+## Employees
+
+| id | name |
+|---|---|
+| 1 | Alice |
+| 3 | Jonathan |
+
+---
+
+## EmployeeUNI
+
+| id | unique_id |
+|---|---|
+| 3 | 1 |
+
+---
+
+## Result After LEFT JOIN
+
+| unique_id | name |
+|---|---|
+| null | Alice |
+| 1 | Jonathan |
+
+---
+
+# Time Complexity
+
+```text
+O(n)
+```
+
+where `n` is the number of rows.
+
+---
+
+# Space Complexity
+
+```text
+O(1)
+```
+
+---
+
+# Concepts Used
+
+- SQL JOIN
+- LEFT JOIN
+- NULL Handling
+- Table Matching
