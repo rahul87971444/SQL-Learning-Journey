@@ -454,11 +454,13 @@ Return the resulting table in **any order**.
 
 Find the IDs of customers who visited the mall without making any transactions and count how many times this happened.
 
-Example 1:
+### Example
 
-Input: 
-Visits
----
+#### Input
+
+**Visits**
+
+```text id="vz65x1"
 +----------+-------------+
 | visit_id | customer_id |
 +----------+-------------+
@@ -470,9 +472,11 @@ Visits
 | 7        | 54          |
 | 8        | 54          |
 +----------+-------------+
----
-Transactions
----
+```
+
+**Transactions**
+
+```text id="n0j0ak"
 +----------------+----------+--------+
 | transaction_id | visit_id | amount |
 +----------------+----------+--------+
@@ -482,9 +486,11 @@ Transactions
 | 12             | 1        | 910    |
 | 13             | 2        | 970    |
 +----------------+----------+--------+
----
-Output: 
----
+```
+
+#### Output
+
+```text id="d7jlwm"
 +-------------+----------------+
 | customer_id | count_no_trans |
 +-------------+----------------+
@@ -492,8 +498,8 @@ Output:
 | 30          | 1              |
 | 96          | 1              |
 +-------------+----------------+
+```
 
----
 
 ### Explanation: 
 ---
