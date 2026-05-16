@@ -519,33 +519,35 @@ As we can see, users with IDs 30 and 96 visited the mall one time without making
 * `Subquery`
 
 ---
-## 27. Rising Temperature
+## 192 . Rising Temperature
+
+Write a solution to find all dates' id with higher temperatures compared to its previous dates (yesterday).
+
+Return the result table in any order.
+
+The result format is in the following example.
 
 ### Example
 
 #### Input
 
-**Weather**
+**Weather Table**
 
-+----+------------+-------------+
 | id | recordDate | temperature |
-+----+------------+-------------+
-| 1  | 2015-01-01 | 10          |
-| 2  | 2015-01-02 | 25          |
-| 3  | 2015-01-03 | 20          |
-| 4  | 2015-01-04 | 30          |
-+----+------------+-------------+
+|----|------------|-------------|
+| 1  | 2015-01-01 | 10 |
+| 2  | 2015-01-02 | 25 |
+| 3  | 2015-01-03 | 20 |
+| 4  | 2015-01-04 | 30 |
 
 #### Output
 
-+----+
 | id |
-+----+
+|----|
 | 2  |
 | 4  |
-+----+
 
 #### Explanation
 
-- On 2015-01-02, temperature increased from 10 → 25
-- On 2015-01-04, temperature increased from 20 → 30
+- On `2015-01-02`, temperature increased from `10 → 25`
+- On `2015-01-04`, temperature increased from `20 → 30`
