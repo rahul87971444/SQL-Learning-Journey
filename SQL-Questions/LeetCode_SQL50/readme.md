@@ -516,7 +516,36 @@ As we can see, users with IDs 30 and 96 visited the mall one time without making
 * `NOT IN`
 * `GROUP BY`
 * `COUNT`
-* Subquery
+* `Subquery`
 
 ---
+## 27. Rising Temperature
 
+### Example
+
+#### Input
+
+**Weather**
+
++----+------------+-------------+
+| id | recordDate | temperature |
++----+------------+-------------+
+| 1  | 2015-01-01 | 10          |
+| 2  | 2015-01-02 | 25          |
+| 3  | 2015-01-03 | 20          |
+| 4  | 2015-01-04 | 30          |
++----+------------+-------------+
+
+#### Output
+
++----+
+| id |
++----+
+| 2  |
+| 4  |
++----+
+
+#### Explanation
+
+- On 2015-01-02, temperature increased from 10 → 25
+- On 2015-01-04, temperature increased from 20 → 30
