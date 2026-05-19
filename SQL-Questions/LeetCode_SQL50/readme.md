@@ -653,3 +653,56 @@ Return the result table in any order.
 
 ## Space Complexity
 - O(1)
+
+---
+
+# 577.Employee Bonus 
+
+## Problem Statement
+
+Write a solution to report the name and bonus amount of each employee who satisfies either of the following conditions:
+
+- The employee has a bonus less than 1000.
+- The employee did not get any bonus.
+
+Return the result table in any order.
+
+---
+
+## Example
+
+### Input
+
+#### Employee Table
+
+| empId | name   | supervisor | salary |
+|------|--------|------------|--------|
+| 3 | Brad | null | 4000 |
+| 1 | John | 3 | 1000 |
+| 2 | Dan | 3 | 2000 |
+| 4 | Thomas | 3 | 4000 |
+
+#### Bonus Table
+
+| empId | bonus |
+|------|-------|
+| 2 | 500 |
+| 4 | 2000 |
+
+---
+
+### Output
+
+| name | bonus |
+|------|-------|
+| Brad | null |
+| John | null |
+| Dan | 500 |
+
+---
+
+## Explanation
+
+- `LEFT JOIN` is used to include all employees even if they do not have a bonus record.
+- `b.bonus < 1000` selects employees whose bonus is less than 1000.
+- `b.bonus IS NULL` selects employees who did not receive any bonus.
